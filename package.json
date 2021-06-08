@@ -1,0 +1,30 @@
+{
+  "name": "truncate-eth-address",
+  "version": "1.0.0",
+  "description": "A simple utility to truncate ethereum addresses to a more readable format",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "tsc",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gpxl-dev/truncate-eth-address.git"
+  },
+  "keywords": [
+    "web3",
+    "utilities",
+    "string",
+    "formatting"
+  ],
+  "author": "Greypixel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gpxl-dev/truncate-eth-address/issues"
+  },
+  "homepage": "https://github.com/gpxl-dev/truncate-eth-address#readme",
+  "devDependencies": {
+    "typescript": "^4.3.2"
+  }
+}
